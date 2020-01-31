@@ -4,10 +4,16 @@
 	"colors": {
 		"editor.background": "#282828",
 		"editor.foreground": "#d8d8d8",
-		"activityBarBadge.background": "#f00",
-    "sideBarTitle.foreground": "#bbbbbb",
-    "editorLineNumber.foreground": "#545454",
+    "breadcrumb.background": "#282828",
+    "editor.lineHighlightBackground": "#222222",
+    "editorGroupHeader.tabsBackground": "#181818",
     "editorIndentGuide.background": "#434343",
+    "editorLineNumber.foreground": "#545454",
+    "scrollbar.shadow": "#0006",
+    "sideBarTitle.foreground": "#bbbbbb",
+    "tab.activeBackground": "#282828",
+    "tab.border": "#00000020",
+    "tab.inactiveBackground": "#181818",
     "titleBar.activeBackground": "#009688"
   },
   "tokenColors": [

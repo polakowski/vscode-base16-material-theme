@@ -1,6 +1,6 @@
 {
   "name": "vscode-base16-material-theme",
-  "displayName": "base16-material",
+  "displayName": "Base16 Material Theme",
   "description": "Base16 syntax theme for VS Code, based on material color palette",
   "version": "0.0.1",
   "publisher": "polakowski",
