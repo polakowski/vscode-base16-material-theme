@@ -1,0 +1,39 @@
+{
+  "name": "vscode-base16-material-theme",
+  "displayName": "base16-material",
+  "description": "Base16 syntax theme for VS Code, based on material color palette",
+  "version": "0.0.1",
+  "publisher": "polakowski",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
+  "author": {
+    "name": "polakowski"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "base16",
+    "material",
+    "syntax",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polakowski/vscode-base16-material-theme.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Base16 Material",
+        "uiTheme": "vs-dark",
+        "path": "./themes/base16-material-theme.json"
+      }
+    ]
+  }
+}
