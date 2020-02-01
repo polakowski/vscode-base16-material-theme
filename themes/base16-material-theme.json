@@ -25,7 +25,11 @@
         "storage.modifier",
         "keyword.control",
         "keyword.other.special-method",
-        "variable.language.this"
+        "variable.language.this",
+        "variable.language.self",
+        "markup.bold.markdown punctuation.definition",
+        "markup.italic.markdown punctuation.definition",
+        "markup.list.unnumbered punctuation.definition.list.begin"
       ],
       "settings": {
         "foreground": "#a47b9c"
@@ -34,7 +38,9 @@
     {
       "name": "Yellow",
       "scope": [
-        "string"
+        "string",
+        "markup.inline.raw.string",
+        "fenced_code.block.language"
       ],
       "settings": {
         "foreground": "#f4c98b"
@@ -45,7 +51,8 @@
       "scope": [
         "entity.name.function",
         "variable.language.super",
-        "support.function.console"
+        "support.function.console",
+        "string.other.link.title.markdown"
       ],
       "settings": {
         "foreground": "#81adbd"
@@ -73,7 +80,8 @@
         "entity.other.attribute-name",
         "meta.object-literal.key",
         "variable.other.env",
-        "source.yaml entity.name.tag"        
+        "source.yaml entity.name.tag",
+        "markup.list.numbered punctuation.definition.list.begin"      
       ],
       "settings": {
         "foreground": "#9faf72"
@@ -86,7 +94,10 @@
         "punctuation.section.embedded",
         "punctuation.separator.key-value",
         "constant.character.escape",
-        "entity.other.inherited-class"
+        "entity.other.inherited-class",
+        "punctuation.definition.raw",
+        "punctuation.definition.heading.markdown",
+        "markup.fenced_code.block punctuation.definition.markdown"
       ],
       "settings": {
         "foreground": "#9b6a4c"
@@ -139,6 +150,34 @@
       "settings": {
         "fontStyle": "bold",
         "foreground": "#dd0000"
+      }
+    },
+    {
+      "name": "Markdown - orange bold",
+      "scope": [
+        "entity.name.section.markdown"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#d7965b"
+      }
+    },
+    {
+      "name": "Markdown - white italic",
+      "scope": [
+        "markup.italic.markdown"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown - white bold",
+      "scope": [
+        "markup.bold.markdown"
+      ],
+      "settings": {
+        "fontStyle": "bold"
       }
     }
   ]
