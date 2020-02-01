@@ -81,7 +81,8 @@
         "meta.object-literal.key",
         "variable.other.env",
         "source.yaml entity.name.tag",
-        "markup.list.numbered punctuation.definition.list.begin"      
+        "markup.list.numbered punctuation.definition.list.begin",
+        "variable.other.normal.shell"     
       ],
       "settings": {
         "foreground": "#9faf72"
@@ -97,7 +98,8 @@
         "entity.other.inherited-class",
         "punctuation.definition.raw",
         "punctuation.definition.heading.markdown",
-        "markup.fenced_code.block punctuation.definition.markdown"
+        "markup.fenced_code.block punctuation.definition.markdown",
+        "variable.other.normal.shell punctuation.definition.variable"
       ],
       "settings": {
         "foreground": "#9b6a4c"
