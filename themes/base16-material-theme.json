@@ -29,7 +29,10 @@
         "variable.language.self",
         "markup.bold.markdown punctuation.definition",
         "markup.italic.markdown punctuation.definition",
-        "markup.list.unnumbered punctuation.definition.list.begin"
+        "markup.list.unnumbered punctuation.definition.list.begin",
+        "constant.language.boolean",
+        "constant.language.null",
+        "constant.language.undefined"
       ],
       "settings": {
         "foreground": "#a47b9c"
@@ -66,8 +69,8 @@
         "entity.name.tag",
         "support.class",
         "constant.numeric",
-        "constant.language.boolean",
-        "source.ruby variable.other.constant"
+        "source.ruby variable.other.constant",
+        "support.type.primitive"
       ],
       "settings": {
         "foreground": "#d7965b"
@@ -110,7 +113,8 @@
       "scope": [
         "string.regexp",
         "support.class.console",
-        "source.yaml variable.other.alias"
+        "source.yaml variable.other.alias",
+        "entity.name.type.interface"
       ],
       "settings": {
         "foreground": "#8bbcb6"
